@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breno Bosser Morim | Aulas Particulares de Inglês</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .bg-dark {
+            background-color: #000000;
+        }
+        .text-primary {
+            color: #3b82f6; /* Blue 500 */
+        }
+        .bg-primary {
+            background-color: #3b82f6;
+        }
+        .border-primary {
+            border-color: #3b82f6;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+    </style>
+</head>
+<body class="bg-dark text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0">
+                    <span class="text-xl font-bold tracking-wider">BRENO <span class="text-primary">MORIM</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#sobre" class="hover:text-primary transition-colors">Sobre</a>
+                        <a href="#metodologia" class="hover:text-primary transition-colors">Metodologia</a>
+                        <a href="#planos" class="hover:text-primary transition-colors">Planos</a>
+                        <a href="https://wa.me/5511972403198" target="_blank" class="bg-primary hover:bg-blue-600 text-white px-4 py-2 rounded-md font-medium transition-all">Agendar Aula</a>
+                    </div>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-400 hover:text-white">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden bg-black/90 backdrop-blur-md border-b border-gray-800">
+        <div class="px-4 pt-2 pb-6 space-y-2">
+            <a href="#sobre" class="block px-3 py-2 rounded-md text-base font-medium hover:text-primary transition-colors">Sobre</a>
+            <a href="#metodologia" class="block px-3 py-2 rounded-md text-base font-medium hover:text-primary transition-colors">Metodologia</a>
+            <a href="#planos" class="block px-3 py-2 rounded-md text-base font-medium hover:text-primary transition-colors">Planos</a>
+            <a href="https://wa.me/5511972403198" target="_blank" class="block w-full text-center bg-primary text-white px-4 py-2 rounded-md font-medium transition-all">Agendar Aula</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Inglês para o Mundo Real <span class="block text-primary">Sem Decoreba de Gramática.</span></h1>
+                <p class="mt-6 text-lg text-gray-400 max-w-2xl mx-auto">
+                    Aulas particulares focadas em conversação e situações reais. Aprenda o inglês que você realmente vai usar no dia a dia e na sua carreira.
+                </p>
+                <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#planos" class="bg-primary hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all text-center">Ver Planos</a>
+                    <a href="#sobre" class="border border-gray-600 hover:border-primary hover:text-primary px-8 py-4 rounded-lg font-bold text-lg transition-all text-center">Conhecer o Professor</a>
+                </div>
+            </div>
+        </div>
+        <!-- Background decoration -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full opacity-20 pointer-events-none">
+            <div class="absolute top-1/4 left-1/4 w-72 h-72 bg-blue-600 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-72 h-72 bg-blue-900 rounded-full blur-[120px]"></div>
+        </div>
+    </section>
+
+    <!-- Sobre Mim Section -->
+    <section id="sobre" class="py-20 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Muito além de um professor de inglês.</h2>
+                    <div class="space-y-4 text-gray-300 text-lg">
+                        <p>
+                            Olá, eu sou <span class="text-white font-semibold">Breno Bosser Morim</span>. Minha jornada com o inglês começou em 2016, o que me deu uma bagagem de mais de 10 anos de estudo constante e compreensão das dificuldades de quem está aprendendo.
+                        </p>
+                        <p>
+                            Desde 2022, atuo como professor na <span class="text-primary font-semibold">Wizard</span>, refinando técnicas de ensino para diferentes perfis de alunos.
+                        </p>
+                <div class="flex flex-col md:flex-row items-center gap-6 text-left">
+                    <img src="https://ui-avatars.com/api/?name=Breno+Morim&background=3b82f6&color=fff&size=128" alt="Breno Morim" class="w-24 h-24 md:w-32 md:h-32 rounded-full border-2 border-primary shrink-0">
+                    <div class="flex items-start gap-4 mb-6">
+                        <div class="w-12 h-12 rounded-full bg-zinc-800 border border-gray-700 flex-shrink-0 flex items-center justify-center overflow-hidden">
+                            <span class="text-[10px] text-gray-500">Foto</span>
+                        </div>
+                        <p class="bg-blue-900/20 border-l-4 border-primary p-4 italic text-gray-300">
+                            "Como desenvolvedor de software pleno na Telcomanager Technologies, eu entendo a necessidade de um inglês técnico e funcional para o mercado de tecnologia."
+                        </p>
+                    </div>
+                </div>
+                        <p>
+                            Essa minha dupla atuação me permite oferecer um diferencial único: eu não ensino apenas o idioma, eu ensino como a língua funciona no ambiente de trabalho e em contextos reais.
+                        </p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="aspect-square rounded-2xl bg-gradient-to-br from-blue-500 to-black opacity-20 absolute inset-0 blur-2xl"></div>
+                    <!-- Placeholder for Image -->
+                    <div class="relative aspect-square rounded-2xl bg-zinc-900 border border-gray-800 flex items-center justify-center overflow-hidden shadow-2xl">
+                         <span class="text-gray-600">Sua Foto Aqui</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodologia Section -->
+    <section id="metodologia" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-16">Como eu te ajudo a falar.</h2>
+            <div class="flex md:grid md:grid-cols-3 gap-6 md:gap-8 overflow-x-auto md:overflow-visible snap-x snap-mandatory pb-8 md:pb-0 no-scrollbar">
+                <!-- Card 1 -->
+                <div class="p-8 rounded-2xl bg-zinc-900 border border-gray-800 hover:border-primary transition-colors text-left snap-center shrink-0 w-[85%] md:w-auto">
+                    <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-6 text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Contexto Real</h3>
+                    <p class="text-gray-400">Chega de listas intermináveis de verbos. Aprendemos através de situações reais, conversas e materiais que fazem parte do seu cotidiano.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="p-8 rounded-2xl bg-zinc-900 border border-gray-800 hover:border-primary transition-colors text-left snap-center shrink-0 w-[85%] md:w-auto">
+                    <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-6 text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Foco em Conversação</h3>
+                    <p class="text-gray-400">O objetivo principal é destravar sua fala. As aulas são desenhadas para você praticar o listening e o speaking de forma natural.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="p-8 rounded-2xl bg-zinc-900 border border-gray-800 hover:border-primary transition-colors text-left snap-center shrink-0 w-[85%] md:w-auto">
+                    <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-6 text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Customização Total</h3>
+                    <p class="text-gray-400">Tem uma entrevista de emprego em inglês? Quer foco em Tech? As aulas são adaptadas às suas necessidades imediatas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pricing Section -->
+    <section id="planos" class="py-20 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Planos que cabem no seu bolso</h2>
+                <p class="text-gray-400">Escolha a modalidade que melhor se adapta à sua rotina.</p>
+            </div>
+            
+            <div class="flex md:grid md:grid-cols-3 gap-6 md:gap-8 overflow-x-auto md:overflow-visible snap-x snap-mandatory pb-8 md:pb-0 no-scrollbar">
+                <!-- Avulsa -->
+                <div class="p-8 rounded-2xl bg-zinc-900 border border-gray-800 flex flex-col snap-center shrink-0 w-[85%] md:w-auto">
+                    <h3 class="text-xl font-bold mb-2">Aula Avulsa</h3>
+                    <div class="text-4xl font-bold mb-6">R$ 40<span class="text-lg text-gray-400 font-normal">/aula</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-400 flex-grow">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Flexibilidade total</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Sem compromisso mensal</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Ideal para tirar dúvidas pontuais</li>
+                    </ul>
+                    <a href="https://wa.me/5511972403198" class="block text-center py-3 px-6 rounded-lg border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all">Contratar Avulsa</a>
+                </div>
+
+                <!-- Plano 1 Aula/Semana -->
+                <div class="p-8 rounded-2xl bg-zinc-900 border-2 border-primary flex flex-col relative transform scale-105 shadow-2xl z-10 snap-center shrink-0 w-[85%] md:w-auto">
+                    <div class="absolute top-0 right-8 -translate-y-1/2 bg-primary text-white px-3 py-1 rounded-full text-sm font-bold">Mais Popular</div>
+                    <h3 class="text-xl font-bold mb-2">1 Aula / Semana</h3>
+                    <div class="text-4xl font-bold mb-6">R$ 150<span class="text-lg text-gray-400 font-normal">/mês</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-300 flex-grow">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 4 aulas mensais</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Acompanhamento constante</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Material customizado</li>
+                    </ul>
+                    <a href="https://wa.me/5511972403198" class="block text-center py-3 px-6 rounded-lg bg-primary text-white font-bold hover:bg-blue-600 transition-all">Começar Agora</a>
+                </div>
+
+                <!-- Plano 2 Aulas/Semana -->
+                <div class="p-8 rounded-2xl bg-zinc-900 border border-gray-800 flex flex-col snap-center shrink-0 w-[85%] md:w-auto">
+                    <h3 class="text-xl font-bold mb-2">2 Aulas / Semana</h3>
+                    <div class="text-4xl font-bold mb-6">R$ 300<span class="text-lg text-gray-400 font-normal">/mês</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-400 flex-grow">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 8 aulas mensais</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Aceleração de aprendizado</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Foco total em conversação</li>
+                    </ul>
+                    <a href="https://wa.me/5511972403198" class="block text-center py-3 px-6 rounded-lg border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all">Começar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-primary">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-8">Pronto para destravar seu inglês?</h2>
+            <p class="text-blue-100 text-xl mb-10">Agende uma aula experimental ou tire suas dúvidas pelo WhatsApp.</p>
+            <a href="https://wa.me/5511972403198" class="inline-block bg-white text-primary hover:bg-gray-100 px-10 py-4 rounded-full font-bold text-xl transition-all shadow-xl">
+                Falar com Breno no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-black border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-gray-500">&copy; 2026 Breno Bosser Morim. Todos os direitos reservados.</p>
+            <p class="text-gray-600 text-sm mt-2">Desenvolvido para fins de apresentação profissional.</p>
+        </div>
+    </footer>
+
+<script>
+        const btn = document.getElementById('mobile-menu-button');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
+
