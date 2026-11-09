@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breno Bosser Morim | Aulas Particulares de Inglês</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -72,9 +73,9 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+    <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden animate__animated animate__fadeIn">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center">
+            <div class="text-center animate__animated animate__fadeInUp">
                 <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Inglês para o Mundo Real <span class="block text-primary">Sem Decoreba de Gramática.</span></h1>
                 <p class="mt-6 text-lg text-gray-400 max-w-2xl mx-auto">
                     Aulas particulares focadas em conversação e situações reais. Aprenda o inglês que você realmente vai usar no dia a dia e na sua carreira.
@@ -93,7 +94,7 @@
     </section>
 
     <!-- Sobre Mim Section -->
-    <section id="sobre" class="py-20 bg-zinc-950">
+    <section id="sobre" class="py-20 bg-zinc-950 animate__animated animate__fadeIn">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
@@ -105,17 +106,12 @@
                         <p>
                             Desde 2022, atuo como professor na <span class="text-primary font-semibold">Wizard</span>, refinando técnicas de ensino para diferentes perfis de alunos.
                         </p>
-                <div class="flex flex-col md:flex-row items-center gap-6 text-left">
-                    <img src="https://ui-avatars.com/api/?name=Breno+Morim&background=3b82f6&color=fff&size=128" alt="Breno Morim" class="w-24 h-24 md:w-32 md:h-32 rounded-full border-2 border-primary shrink-0">
-                    <div class="flex items-start gap-4 mb-6">
-                        <div class="w-12 h-12 rounded-full bg-zinc-800 border border-gray-700 flex-shrink-0 flex items-center justify-center overflow-hidden">
-                            <span class="text-[10px] text-gray-500">Foto</span>
-                        </div>
-                        <p class="bg-blue-900/20 border-l-4 border-primary p-4 italic text-gray-300">
-                            "Como desenvolvedor de software pleno na Telcomanager Technologies, eu entendo a necessidade de um inglês técnico e funcional para o mercado de tecnologia."
+                    <div class="flex flex-col md:flex-row items-center gap-6 text-left">
+                        <!-- Telcomanager Technologies Section - REMOVED IMAGE -->
+                        <p class="bg-blue-900/20 border-l-4 border-primary p-4 italic text-gray-300 w-full">
+                            "Como desenvolvedor de software na Telcomanager Technologies, eu entendo a necessidade de um inglês técnico e funcional para o mercado de tecnologia."
                         </p>
                     </div>
-                </div>
                         <p>
                             Essa minha dupla atuação me permite oferecer um diferencial único: eu não ensino apenas o idioma, eu ensino como a língua funciona no ambiente de trabalho e em contextos reais.
                         </p>
@@ -125,7 +121,7 @@
                     <div class="aspect-square rounded-2xl bg-gradient-to-br from-blue-500 to-black opacity-20 absolute inset-0 blur-2xl"></div>
                     <!-- Placeholder for Image -->
                     <div class="relative aspect-square rounded-2xl bg-zinc-900 border border-gray-800 flex items-center justify-center overflow-hidden shadow-2xl">
-                         <span class="text-gray-600">Sua Foto Aqui</span>
+                        <img src="assets/perfil.png" alt="Breno Bosser Morim" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -134,7 +130,7 @@
 
     <!-- Metodologia Section -->
     <section id="metodologia" class="py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate__animated animate__fadeIn">
             <h2 class="text-3xl md:text-4xl font-bold mb-16">Como eu te ajudo a falar.</h2>
             <div class="flex md:grid md:grid-cols-3 gap-6 md:gap-8 overflow-x-auto md:overflow-visible snap-x snap-mandatory pb-8 md:pb-0 no-scrollbar">
                 <!-- Card 1 -->
@@ -174,9 +170,9 @@
                 <p class="text-gray-400">Escolha a modalidade que melhor se adapta à sua rotina.</p>
             </div>
             
-            <div class="flex md:grid md:grid-cols-3 gap-6 md:gap-8 overflow-x-auto md:overflow-visible snap-x snap-mandatory pb-8 md:pb-0 no-scrollbar">
+            <div class="flex md:grid md:grid-cols-3 gap-4 md:gap-8 no-scrollbar animate__animated animate__fadeInUp">
                 <!-- Avulsa -->
-                <div class="p-8 rounded-2xl bg-zinc-900 border border-gray-800 flex flex-col snap-center shrink-0 w-[85%] md:w-auto">
+                <div class="p-6 md:p-8 rounded-2xl bg-zinc-900 border border-gray-800 flex flex-col snap-start shrink-0 w-full md:w-auto mx-auto md:mx-0 animate__animated animate__fadeInUp">
                     <h3 class="text-xl font-bold mb-2">Aula Avulsa</h3>
                     <div class="text-4xl font-bold mb-6">R$ 40<span class="text-lg text-gray-400 font-normal">/aula</span></div>
                     <ul class="space-y-4 mb-8 text-gray-400 flex-grow">
@@ -188,12 +184,12 @@
                 </div>
 
                 <!-- Plano 1 Aula/Semana -->
-                <div class="p-8 rounded-2xl bg-zinc-900 border-2 border-primary flex flex-col relative transform scale-105 shadow-2xl z-10 snap-center shrink-0 w-[85%] md:w-auto">
-                    <div class="absolute top-0 right-8 -translate-y-1/2 bg-primary text-white px-3 py-1 rounded-full text-sm font-bold">Mais Popular</div>
+                <div class="p-6 md:p-8 rounded-2xl bg-zinc-900 border-2 border-primary flex flex-col snap-start shrink-0 w-full md:w-auto mx-auto md:mx-0 animate__animated animate__fadeInUp">
+                    <div class="absolute top-4 right-10 -translate-y-1/2 bg-primary text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">Mais Popular</div>
                     <h3 class="text-xl font-bold mb-2">1 Aula / Semana</h3>
                     <div class="text-4xl font-bold mb-6">R$ 150<span class="text-lg text-gray-400 font-normal">/mês</span></div>
                     <ul class="space-y-4 mb-8 text-gray-300 flex-grow">
-                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 4 aulas mensais</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 4 a 5 aulas mensais</li>
                         <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Acompanhamento constante</li>
                         <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Material customizado</li>
                     </ul>
@@ -201,11 +197,11 @@
                 </div>
 
                 <!-- Plano 2 Aulas/Semana -->
-                <div class="p-8 rounded-2xl bg-zinc-900 border border-gray-800 flex flex-col snap-center shrink-0 w-[85%] md:w-auto">
+                <div class="p-6 md:p-8 rounded-2xl bg-zinc-900 border border-gray-800 flex flex-col snap-start shrink-0 w-full md:w-auto mx-auto md:mx-0 animate__animated animate__fadeInUp">
                     <h3 class="text-xl font-bold mb-2">2 Aulas / Semana</h3>
-                    <div class="text-4xl font-bold mb-6">R$ 300<span class="text-lg text-gray-400 font-normal">/mês</span></div>
+                    <div class="text-4xl font-bold mb-6">R$ 250<span class="text-lg text-gray-400 font-normal">/mês</span></div>
                     <ul class="space-y-4 mb-8 text-gray-400 flex-grow">
-                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 8 aulas mensais</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 8 a 10 aulas mensais</li>
                         <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Aceleração de aprendizado</li>
                         <li class="flex items-center"><svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Foco total em conversação</li>
                     </ul>
@@ -252,4 +248,5 @@
     </script>
 </body>
 </html>
+
 
